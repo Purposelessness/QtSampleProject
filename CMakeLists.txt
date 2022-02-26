@@ -23,10 +23,10 @@ find_package(Qt${QT_VERSION_MAJOR} COMPONENTS
         )
 
 set(PROJECT_SOURCES
-        UI/main.cpp
-        UI/mainwindow.cpp
-        UI/mainwindow.h
-        UI/mainwindow.ui
+        QtApplication/main.cpp
+        QtApplication/mainwindow.cpp
+        QtApplication/mainwindow.h
+        QtApplication/mainwindow.ui
         )
 
 if (${QT_VERSION_MAJOR} GREATER_EQUAL 6)
